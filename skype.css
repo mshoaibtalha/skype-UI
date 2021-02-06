@@ -1,0 +1,336 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(204, 222, 235) ;
+}
+.leftbody{
+  width: 35%;
+  background-color: rgb(236, 242, 247);
+}
+
+.rightbody{
+  width: 65%;
+  border-left: 1px solid rgb(177, 173, 173);
+  padding-left: 5px;
+  box-sizing: border-box;
+  position: relative;
+  float: right;
+  margin-top:-800px ;
+  padding: 20px;
+  background-color: white;
+}
+.topnav1{
+  padding: 10px;
+  display: inline-flex;
+}
+.topnav1 img{
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.topnav1 .name{
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.topnav1 .balance{
+  margin-left: 10px;
+  cursor: pointer;
+  color: silver;
+  font-size: 15px;
+}
+.topnav1 a{
+  margin-left: 200px;
+  margin-top: 15px;
+}
+.topnav2 #search{
+  background:url("search.png")  no-repeat left center;
+  background-size: 20px 20px;
+  width: 320px;
+  padding: 8px;
+  padding-left: 27px;
+  margin-left: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius:8px ;
+  outline: none;
+  border: 1px solid silver;
+  display: inline;
+  background-color: white;
+
+}
+.topnav2 #dailpad{
+  background:url("dialpad.png")  no-repeat  center;
+  background-size: 20px 20px ;
+  width: 30px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid silver;
+  margin-left: -5px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius:8px ;
+  background-color: white;
+  cursor: pointer;
+  
+
+
+}
+.topnav3{
+  display: inline-flex;
+  margin-left: 15px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.topnav3 .fas{
+  font-size: 23px;
+}
+.topnav3 .far{
+  font-size: 23px;
+}
+.topnav3 .msg{
+  cursor: pointer;
+
+}
+.topnav3 .msg:hover{
+  color: gray;
+}
+.topnav3 .msg:active{
+  color: blue;
+}
+
+
+.topnav3 .calls{
+
+  margin-left:60px ;
+  cursor: pointer;
+  
+}
+.topnav3 .calls:hover{
+  color: gray;
+}
+.topnav3 .calls:active{
+  color: blue;
+
+}
+
+.topnav3 .contacts{
+  margin-left: 60px;
+  cursor: pointer;
+}
+.topnav3 .contacts:hover{
+  color: gray;
+}
+.topnav3 .contacts:active{
+  color: blue;
+}
+
+.topnav3 .notification{
+  margin-left: 60px;
+  cursor: pointer;
+}
+.topnav3 .notification:hover{
+  color: gray;
+}
+.topnav3 .notification:active{
+  color: blue;
+}
+
+.contacts i{
+  
+  margin-left: 10px;
+}
+.notification i{
+  
+  margin-left: 16px;
+}
+.topnav3 p{
+  font-size: 12px;
+  color: silver;
+  
+}
+hr{
+
+  color:silver;
+  margin-top: -15px;
+}
+.topnav4{
+  margin: 10px;
+  margin-left: 20px
+}
+.btn1{
+  padding: 6px 25px;
+  border-radius:25px ;
+  background: white;
+  border: 1px solid silver;
+  cursor: pointer;
+  outline: none;
+}
+.btn2{
+  margin-left: 45px;
+  padding: 6px 25px;
+  border-radius:25px ;
+  background: white;
+  border: 1px solid silver;
+  cursor: pointer;
+  outline: none;
+}
+.recentcalls{
+  margin-top: 35px;
+  margin-left: 11px;
+  font-size:15px;
+  color:gray;
+}
+.ongoingcalls{
+  margin-top: 20px;
+  margin-left:10px;
+  
+  font-size:15px ;
+  color: gray;
+}
+.ongcalls{
+  margin: 10px;
+  position: relative;
+}
+.ongcalls img{
+border-radius: 50%;
+}
+.name1{
+  position: absolute;
+  left: 55px;
+  top: -10px;
+  color: black;
+}
+.time1{
+  position: absolute;
+  left: 55px;
+  top: 10px;
+  color:gray;
+}
+.chatlist{
+  position: relative;
+}
+
+.chatlist li{
+  list-style: none;
+  padding: 6px;
+  
+  
+  }
+  .chatlist li:hover{
+    
+    background-color:skyblue;
+    
+  }
+
+.chatlist img{
+  border-radius: 50%;
+  margin-left: -32px;
+}
+.name2{
+  margin-left: 20px;
+  margin-top: -32px;
+  color: black;
+
+}
+.time2{
+  margin-left: 20px;
+  margin-top: -12px;
+}
+.chatbody{
+  height: 725px;
+}
+h3{
+  margin-left: 13px;
+  color:black;
+}
+
+.chattopnav{
+  margin-top:-35px ;
+  padding: 15px;
+  display: inline-flex;
+}
+.chattopnav .lastseen{
+  left: -15px;
+  font-size:12px ;
+  color: grey;
+}
+.chattopnav p{
+  font-size: 12px;
+  color: grey;
+}
+.chattopnav .far{
+  margin-left: 30px;
+  font-size: 12px;
+  color: gray;
+}
+.chattopnav .fas{
+  margin-left: 30px;
+  font-size: 12px;
+  color: gray;
+}
+.hr1{
+  margin-left: -20px;
+}
+.chattopright{
+  float: right;
+  margin-top: -40px;
+  padding: 10px;
+}
+.chattopright .fas{
+  padding-right: 20px;
+  color: gray;
+
+}
+.textbox1{
+margin: 28px;
+
+ 
+}
+.textbox2{
+  display: inline;
+  background-color:rgb(235, 230, 230); 
+  padding: 25px 0px ;
+  border-radius: 30px;
+  margin-right:5px;
+}
+.textbox2 i{
+  margin-left: 3px;
+}
+.textbox1 input{
+  
+  width: 360px;
+  height: 30px;
+  outline:none;
+  padding: 20px;
+  border: none;
+  border-radius: 25px;
+  background-color:rgb(235, 230, 230); 
+}
+.textbox1 .far{
+  padding:10px ;
+  font-size: 25px;
+  background-color:rgb(212, 203, 203) ;
+  border-radius: 50%;
+}
+.textbox1 .far:hover{
+  background-color:rgb(235, 229, 229);
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+.textbox1 .fas{
+  padding:10px ;
+  font-size:25px;
+  background-color: rgb(212, 203, 203) ;
+  border-radius: 50%;
+}
+.textbox1 .fas:hover{
+  background-color:rgb(218, 212, 212);
+  border-radius: 50%;
+  cursor: pointer;
+}
+#doted{
+  margin-left: 10px;
+  border-radius: 50%;
+}
